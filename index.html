@@ -10,13 +10,13 @@
         display: block;
       }
       canvas#top {
-        height: 90vh;
+        height: 45vh;
         left: calc(100vw / 3);
         position: relative;
       }
       
       canvas#bottom {
-        height: 90vh;
+        height: 45vh;
         position: relative;
         left: calc(100vw / 3);
         top: 3vh;
@@ -27,7 +27,7 @@
     <input type="file" style="">
     <p style=""> Enable Microphone </p>
     <input type="checkbox" id="microphone_on" style="position: relative; left: 15%; top: -5.5%;">
-    <desmond-player id="player" style="display:block;width:1px;"></desmond-player>
+    <desmond-player id="player" style="display:block;width:2px;"></desmond-player>
     <script src="https://cdn.jsdelivr.net/gh/Unzor/desmond/cdn/desmond.min.js"></script>
     <script>
     document.getElementById("player").loadURL("path-to-game.nds");
